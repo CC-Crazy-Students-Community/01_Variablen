@@ -1,6 +1,6 @@
 "use strict";
 
-/***** Variablen 01 *******/
+/***** Variablen 01 *****/
 
 /** 
  * 
@@ -9,8 +9,8 @@
 */
 
 // Konsolen-Ausgaben
-console.log("Hallo");
-console.log(firstName);
+// console.log("Hallo");
+// console.log(firstName);
 
 
 /***** 02 Deklaration + Wertzuweisung I *****/
