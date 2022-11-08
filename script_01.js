@@ -14,7 +14,6 @@
 
 
 /***** 02 Deklaration + Wertzuweisung I *****/
-
 let firstName;                              // Deklaration (Definition)
 firstName = "Max";                          // Wertzuweisung
 console.log(firstName);                     // Ausgabe
@@ -22,3 +21,6 @@ console.log(firstName);                     // Ausgabe
 let lastName = "Mustermann";                // Deklaration (Definition)
 console.log(lastName);                      // Ausgabe
 
+
+/***** 03 Kombination von Variablen mit + und Leerzeichen in Stringform *****/
+console.log(firstName + " " + lastName);    // Ausgabe
