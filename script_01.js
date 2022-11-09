@@ -13,20 +13,29 @@
 
 
 /***** 02 Deklaration + Wertzuweisung I *****/
-//let firstName;                                              // Deklaration (Definition)
-//firstName = "Max";                                          // Wertzuweisung
-//console.log(firstName);                                     // Ausgabe (Max)
+// let firstName;                                              // Deklaration (Definition)
+// firstName = "Max";                                          // Wertzuweisung
+// console.log(firstName);                                     // Ausgabe (Max)
 
-//let lastName = "Mustermann";                                // Deklaration und Wertzuweisung
-//console.log(lastName);                                      // Ausgabe (Mustermann)
+// let lastName = "Mustermann";                                // Deklaration und Wertzuweisung
+// console.log(lastName);                                      // Ausgabe (Mustermann)
 
 
 /***** 03 Kombination von Variablen mit + und Leerzeichen in Stringform *****/
-//console.log(firstName + " " + lastName);                    // Ausgabe (Max Mustermann)
+// console.log(firstName + " " + lastName);                    // Ausgabe (Max Mustermann)
 
 
 /***** 04 Deklaration + Wertzuweisung II *****/
-let firstName, lastName;                                    // Deklaration (Definition) mehrerer Variablen gleichzeitig
-firstName = prompt("Wie ist dein Vorname?: ");              // Wertzuweisung per Usereingabe
-lastName = prompt("Wie ist dein Nachname?: ");              // Wertzuweisung
-console.log("Danke, " + firstName + " " + lastName);        // Ausgabe (Max Mustermann)
+// let firstName, lastName;                                    // Deklaration (Definition) mehrerer Variablen gleichzeitig
+// firstName = prompt("Wie ist dein Vorname?: ");              // Wertzuweisung per Usereingabe
+// lastName = prompt("Wie ist dein Nachname?: ");              // Wertzuweisung
+// console.log("Danke, " + firstName + " " + lastName);        // Ausgabe (Max Mustermann)
+
+
+/* Javascript ist eine untypisierte Sprache  |  untyped */
+let test;                                                   // Deklaration (Definition)
+test = "Hi";                                                // Deklaration eines Strings
+test = 2;                                                   // Deklaration eines Integerwertes
+test = true;                                                // Deklaration eines Boolschen Wert
+
+console.log(test);                                          // Ausgabe
