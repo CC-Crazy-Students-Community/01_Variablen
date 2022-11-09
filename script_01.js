@@ -35,13 +35,25 @@
 
 /* Javascript ist eine untypisierte Sprache  |  untyped */
 // let test;                                                   // Deklaration (Definition)
-// test = "Hi";                                                // Deklaration eines Strings
-// test = 2;                                                   // Deklaration eines Integerwertes
-// test = true;                                                // Deklaration eines Boolschen Wert
+// test = "Hi";                                                // überschreibe Deklaration mit String
+// test = 2;                                                   // überschreibe Deklaration mit Integerwert
+// test = true;                                                // überschreibe Deklaration mit Boolschem Wert
 
 // console.log( test );                                        // Ausgabe (true)
 // console.log( "Datentyp: " + typeof test );                  // Ausgabe des Datentyps (Datentyp: boolean)
 
 /***** 03-a Konstanten *****/
 
+/* Falsche Deklaration einer Konstante  |  Kann nicht verändert werden, da es Konstant sein muss */
+// const test = "Hi";                                          // Deklaration Konstante
+// test = "Hallo";                                             // überschreibe Konstante (ergibt Fehler)
+// console.log( test );                                        // Ausgabe (Uncaught TypeError: Assignment to constant variable.)
 
+/* Falsche Deklaration einer Konstante  |  Kann nicht nachträglich geändert werden, muss also sofort zugewiesen werden */
+// const test;                                                 // Deklaration Konstante
+// test = "Hi";                                                // Wertzuweisung Konstante (ergibt Fehler)
+// console.log( test );                                        // Ausgabe (Uncaught SyntaxError: Missing initializer in const declaration)
+
+/* Richtige Deklaration einer Konstante */
+const test = "Hi";                                          // Deklaration Konstante
+console.log( test );                                        // Ausgabe (Hi)
