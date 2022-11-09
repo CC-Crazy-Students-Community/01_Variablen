@@ -1,7 +1,7 @@
 "use strict";
 
 /***** Variablen 01 ******/
-/* Sabine ist voll doof */
+/* Sabine ist voll TOLL */
 
 /** 
  * 
