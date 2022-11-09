@@ -18,7 +18,7 @@ let firstName;                              // Deklaration (Definition)
 firstName = "Max";                          // Wertzuweisung
 console.log(firstName);                     // Ausgabe (Max)
 
-let lastName = "Mustermann";                // Deklaration (Definition)
+let lastName = "Mustermann";                // Deklaration und Wertzuweisung
 console.log(lastName);                      // Ausgabe (Mustermann)
 
 
