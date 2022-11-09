@@ -1,6 +1,6 @@
 "use strict";
 
-/***** Variablen 01 *****/
+/***** Variablen 01 ******/
 
 /** 
  * 
