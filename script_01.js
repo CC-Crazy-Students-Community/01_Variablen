@@ -1,18 +1,15 @@
 "use strict";
-
-/*****************************************************/
-/*********             VARIABLEN             *********/
-/*****************************************************/
-
-/** 
- * 
- *  Block-Kommentar
- * 
+/************************************************************************/
+/*********                      Variablen                      **********/
+/************************************************************************/
+/* 
+    Block-Kommentar
+    mit mehreren Zeilen
 */
-// einfaches Kommentar
+// einfaches Kommentar mit einer Zeile
 
-    console.log("Hallo");
-    console.log(firstName);                                      // Fehler, weil Variable noch nicht deklariert ist
+    console.log( "Hallo" );
+    console.log( firstName );                                      // Fehler, weil Variable noch nicht deklariert ist
 
 /*****************************************************/
 /*********   Deklaration + Wertzuweisung I   *********/
