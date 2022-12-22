@@ -18,5 +18,4 @@
 - https://www.w3schools.com/jsref/jsref_obj_number.asp
 - https://developer.mozilla.org/en-US/docs/Glossary/undefined
 
-
 ###### sandrosimperl.cc@gmail.com
